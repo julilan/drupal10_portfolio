@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f8aeadf1720512108805176586687088",
+    "content-hash": "95367ce1554ff02f92cac570dda83e82",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1561,6 +1561,50 @@
                 "source": "https://cgit.drupalcode.org/pathauto",
                 "issues": "https://www.drupal.org/project/issues/pathauto",
                 "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
+            }
+        },
+        {
+            "name": "drupal/power_portfolio",
+            "version": "9.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/power_portfolio.git",
+                "reference": "9.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/power_portfolio-9.0.2.zip",
+                "reference": "9.0.2",
+                "shasum": "8de959da3e9d6c3ace8f413edd037fb69fde290d"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "9.0.2",
+                    "datestamp": "1691260435",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Ashutosh Ahirwal",
+                    "homepage": "https://www.drupal.org/user/3703509"
+                }
+            ],
+            "description": "Power Portfolio Fully responsive theme provide <b>Banner with Cards, 2 level menu, Footer Copyright, Arrow up Left/right, Social Media Icon, Contact us Information.</b><br>Developed BY <b><a href=\"https://www.drupal.org/u/ashutosh-ahirwal\">Ashutosh Ahirwal</a></b>.",
+            "homepage": "https://www.drupal.org/project/power_portfolio",
+            "support": {
+                "source": "https://git.drupalcode.org/project/power_portfolio"
             }
         },
         {
