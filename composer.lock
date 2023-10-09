@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "53a8b09afb94eeab87f61bdbe0c7a864",
+    "content-hash": "44eaa5c25c7323fc549f94e5538c5f8c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1090,6 +1090,55 @@
             "time": "2022-02-28T11:07:21+00:00"
         },
         {
+            "name": "drupal/asset_injector",
+            "version": "2.19.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/asset_injector.git",
+                "reference": "8.x-2.19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/asset_injector-8.x-2.19.zip",
+                "reference": "8.x-2.19",
+                "shasum": "c0e6f9450d63f42787b93ec05375c90bcfbc6308"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.19",
+                    "datestamp": "1694704137",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Decker",
+                    "homepage": "https://www.drupal.org/u/pookmish"
+                },
+                {
+                    "name": "Axel Rutz",
+                    "homepage": "https://www.drupal.org/u/axelrutz"
+                }
+            ],
+            "description": "Adds CSS or JS to the page output based on configurable rules.",
+            "homepage": "http://drupal.org/project/asset_injector",
+            "support": {
+                "source": "https://git.drupalcode.org/project/asset_injector",
+                "issues": "https://www.drupal.org/project/issues/asset_injector"
+            }
+        },
+        {
             "name": "drupal/core",
             "version": "10.0.x-dev",
             "source": {
@@ -1940,6 +1989,107 @@
             "homepage": "https://www.drupal.org/project/token",
             "support": {
                 "source": "https://git.drupalcode.org/project/token"
+            }
+        },
+        {
+            "name": "drupal/ui_styles",
+            "version": "1.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ui_styles.git",
+                "reference": "8.x-1.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ui_styles-8.x-1.6.zip",
+                "reference": "8.x-1.6",
+                "shasum": "2625d488e350d92edf82a8a2e1814963f9dbe140"
+            },
+            "require": {
+                "drupal/core": "^9.5 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.6",
+                    "datestamp": "1692287242",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Grimreaper",
+                    "homepage": "https://www.drupal.org/user/2388214"
+                },
+                {
+                    "name": "pdureau",
+                    "homepage": "https://www.drupal.org/user/1903334"
+                },
+                {
+                    "name": "str8",
+                    "homepage": "https://www.drupal.org/user/2865063"
+                }
+            ],
+            "description": "Define styles from modules and themes.",
+            "homepage": "https://www.drupal.org/project/ui_styles",
+            "support": {
+                "source": "https://git.drupalcode.org/project/ui_styles"
+            }
+        },
+        {
+            "name": "drupal/ui_styles_paragraphs",
+            "version": "1.0.0-alpha2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ui_styles_paragraphs.git",
+                "reference": "1.0.0-alpha2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ui_styles_paragraphs-1.0.0-alpha2.zip",
+                "reference": "1.0.0-alpha2",
+                "shasum": "954a33ea0b9f8fb583cf4d5b08ce21bd7b8d16af"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10",
+                "drupal/ui_styles": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0-alpha2",
+                    "datestamp": "1683127775",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "pdureau",
+                    "homepage": "https://www.drupal.org/user/1903334"
+                },
+                {
+                    "name": "Sharique",
+                    "homepage": "https://www.drupal.org/user/73545"
+                }
+            ],
+            "description": "Allow to use UI Styles with the paragraphs.",
+            "homepage": "https://www.drupal.org/project/ui_styles_paragraphs",
+            "support": {
+                "source": "https://git.drupalcode.org/project/ui_styles_paragraphs"
             }
         },
         {
@@ -10589,7 +10739,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/ui_styles_paragraphs": 15
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

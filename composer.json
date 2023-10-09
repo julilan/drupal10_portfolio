@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^2.0",
+        "drupal/asset_injector": "^2.19",
         "drupal/core-composer-scaffold": "^10.0",
         "drupal/core-project-message": "^10.0",
         "drupal/core-recommended": "^10.0",
@@ -24,6 +25,7 @@
         "drupal/paragraphs": "^1.16",
         "drupal/pathauto": "^1.11",
         "drupal/power_portfolio": "^9.0",
+        "drupal/ui_styles_paragraphs": "^1.0@alpha",
         "drush/drush": "^12.2"
     },
     "require-dev": {
