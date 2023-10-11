@@ -24,6 +24,12 @@ This theme is not without its issues and I would recommend a more stabler one bu
 
 ## Setup and Usage
 
+Clone repo
+```bash
+git clone https://github.com/julilan/drupal10_portfolio.git
+```
+
+Try these commands
 ```bash
 lando composer install
 lando db-import drupal10.2023-10-11-1697044717.sql.gz --no-wipe
