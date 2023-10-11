@@ -26,6 +26,3 @@
 
 # Ignore .env files as they are personal
 /.env
-
-# Ignore db dump files for now
-/drupal10.2023-10-08-1696779724.sql.gz
