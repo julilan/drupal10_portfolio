@@ -57,4 +57,4 @@ Thank you to fellow course mates of REACT23K group of Business College Helsinki 
 
 ## Closing image
 
-Coming
+![drupal_love_or_hate](https://github.com/julilan/drupal10_portfolio/assets/122397061/43212134-1a87-4d01-ae0d-79c211a1cf6a)
