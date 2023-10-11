@@ -2,6 +2,8 @@
 
 > Not for the faint of heart
 
+A low-code approach creating a portfolio site with Drupal 10.
+
 ## Built with
 
 - Drupal 10
