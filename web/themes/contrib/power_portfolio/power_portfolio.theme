@@ -226,6 +226,7 @@ $fid = theme_get_setting('bg_image');
 if (!empty($fid)) {
   $file = \Drupal::entityTypeManager()->getStorage('file')->load($fid[0]);
 
+  // Check if the file entity exists and has a URI.
   if ($file && $file->hasFileUri()) {
     $uri = $file->getFileUri();
     $image_path = \Drupal::service('file_url_generator')->generateAbsoluteString($uri);
