@@ -1,0 +1,22 @@
+uuid: d8db31bf-4df3-48e7-ab7f-fdd79016be6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.just_a_page.layout_builder__layout
+    - node.type.just_a_page
+  module:
+    - user
+id: node.just_a_page.teaser
+targetEntityType: node
+bundle: just_a_page
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  layout_builder__layout: true

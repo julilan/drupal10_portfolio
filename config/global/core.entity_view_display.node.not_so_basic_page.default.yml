@@ -1,0 +1,34 @@
+uuid: 2f41957c-9abd-42c8-98d2-5bf1d99675c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.not_so_basic_page.field_content
+    - node.type.not_so_basic_page
+  module:
+    - layout_paragraphs
+    - user
+id: node.not_so_basic_page.default
+targetEntityType: node
+bundle: not_so_basic_page
+mode: default
+content:
+  field_content:
+    type: layout_paragraphs_builder
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+      preview_view_mode: default
+      nesting_depth: 0
+      require_layouts: 0
+      empty_message: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

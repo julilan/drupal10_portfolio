@@ -1,0 +1,26 @@
+uuid: 0419cae6-aa8b-448e-a953-29d6e01b733e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - power_portfolio
+_core:
+  default_config_hash: 9dnQivsrfQwIpyHi-w_fWY0dVwsQf5oQitaw6KcFQsc
+id: pagetitle
+theme: power_portfolio
+region: content
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: '<front>'

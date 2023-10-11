@@ -1,0 +1,44 @@
+uuid: c019e2ce-d1bf-4e50-ab8b-96736b0d9a07
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_content
+    - node.type.not_so_basic_page
+    - paragraphs.paragraphs_type.image
+    - paragraphs.paragraphs_type.section
+    - paragraphs.paragraphs_type.text
+  module:
+    - entity_reference_revisions
+id: node.not_so_basic_page.field_content
+field_name: field_content
+entity_type: node
+bundle: not_so_basic_page
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      image: image
+      text: text
+      section: section
+    negate: 0
+    target_bundles_drag_drop:
+      blog:
+        weight: 4
+        enabled: false
+      image:
+        weight: 5
+        enabled: true
+      section:
+        weight: 7
+        enabled: true
+      text:
+        weight: 6
+        enabled: true
+field_type: entity_reference_revisions

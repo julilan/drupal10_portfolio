@@ -1,0 +1,47 @@
+_core:
+  default_config_hash: 9n30fWtyphLvNssu8jAZfJ1MyKaijwiqHPooAFkYhkk
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: 'public://favicon.ico'
+  use_default: false
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: 'public://logo-slim-rounded.png'
+  use_default: false
+footer_copyright: 'Julianna Molnár 2023 © All Rights Reserved.'
+arrow_up: right
+show_information_icon: 0
+address: ''
+contact: ''
+mail_id: ''
+show_social_icon: 1
+facebook_url: ''
+twitter_url: 'https://twitter.com/nocturnlan'
+linkedin_url: 'https://www.linkedin.com/in/julilan/'
+instagram_url: ''
+youtube_url: ''
+banner_display: 1
+banner_title: 'Welcome to my portfolio'
+banner_description: "I'm Julianna, a full-stack developer in the making."
+no_of_card: '5'
+card1_icon: file-line
+card1_title: Projects
+card2_icon: code-box-line
+card2_title: GitHub
+card3_icon: map-pin-user-line
+card3_title: 'About me'
+card4_icon: mail-line
+card4_title: Contact
+card5_icon: linkedin-box-line
+card5_title: 'Linkedin Profile'
+bg_image:
+  - '34'
+card1_url: /projects
+card2_url: 'https://github.com/julilan'
+card3_url: /about-me
+card4_url: /contact-0
+card5_url: 'https://www.linkedin.com/in/julilan/'

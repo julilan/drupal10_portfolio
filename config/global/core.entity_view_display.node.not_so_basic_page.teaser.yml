@@ -1,0 +1,22 @@
+uuid: 33ddc69c-a72c-4a6b-b981-5f686a0a728d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.not_so_basic_page.field_content
+    - node.type.not_so_basic_page
+  module:
+    - user
+id: node.not_so_basic_page.teaser
+targetEntityType: node
+bundle: not_so_basic_page
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_content: true
