@@ -47,7 +47,7 @@ This site will not be hosted in the near future or ever. Drupal is a bit too wei
 
 ## Screenshot
 
-Coming
+![drupal_portfolio_screenshot](https://github.com/julilan/drupal10_portfolio/assets/122397061/6e3ded67-dc91-4089-b3ba-5bbe1dd02fc3)
 
 ## Author & Acknowledgements
 
