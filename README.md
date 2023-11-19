@@ -40,8 +40,7 @@ Good luck 🦔
 
 Status: Broken 👻
 
-Here's a video:
-https://github.com/julilan/drupal10_portfolio/assets/122397061/f44d7ed5-1b60-4e63-9461-0ff34ae63256
+Here's a [video](https://github.com/julilan/drupal10_portfolio/assets/122397061/f44d7ed5-1b60-4e63-9461-0ff34ae63256) 🎥
 
 ## Live Site
 
