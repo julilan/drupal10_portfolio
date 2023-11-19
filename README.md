@@ -20,7 +20,7 @@ A low-code approach creating a portfolio site with Drupal 10.
 
 - [Power Portfolio Theme](https://www.drupal.org/project/power_portfolio)
 
-This theme is not without its issues and I would recommend a more stabler one but it has some nice looking css and js features out of the box. Use at your own caution.
+This theme is not without its issues and I would recommend a more stabler one but it has some nice looking css and js features out of the box.
 
 ## Setup and Usage
 
@@ -31,21 +31,17 @@ git clone https://github.com/julilan/drupal10_portfolio.git
 
 Try these commands
 ```bash
+lando start
 lando composer install
 lando db-import drupal10.2023-10-11-1697044717.sql.gz --no-wipe
-lando drush cim
-lando start
 ```
 
 Good luck 🦔
 
-Hack your way inside in case the site is broken 👻
-```bash
-lando drush upwd admin admin
-```
+Status: Broken 👻
 
-- Go to {address_of_your_choosing}/user/login
-- Go to Appearance -> Power Portfolio Settings -> Banner Config. -> Upload a bg image
+Here's a video:
+https://github.com/julilan/drupal10_portfolio/assets/122397061/f44d7ed5-1b60-4e63-9461-0ff34ae63256
 
 ## Live Site
 
